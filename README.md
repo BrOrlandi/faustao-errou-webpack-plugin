@@ -9,13 +9,14 @@ Play "Errou" sound if the webpack buid has failed.
 ## Usage
 
 In your Webpack file:
+```javascript
+var FaustaoErrouWebpackPlugin = require('faustao-errou-webpack-plugin');
 
-    var FaustaoErrouWebpackPlugin = require('faustao-errou-webpack-plugin');
-
-    module.exports = {
-        ...
-        plugins: [
-            ...,
-            new FaustaoErrouWebpackPlugin()
-        ]
-    }
+module.exports = {
+    ...,
+    plugins: [
+        ...,
+        new FaustaoErrouWebpackPlugin()
+    ]
+}
+```
