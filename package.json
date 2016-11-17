@@ -1,0 +1,22 @@
+{
+  "name": "faustao-errou-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Play \"Errrrouuu!\" if your webpack build fails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BrOrlandi/faustao-errou-webpack-plugin.git"
+  },
+  "author": "Bruno Orlandi <brorlandi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrOrlandi/faustao-errou-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/BrOrlandi/faustao-errou-webpack-plugin#readme",
+  "dependencies": {
+    "faustao-errou": "^1.0.1"
+  }
+}
